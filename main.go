@@ -48,6 +48,9 @@ func main() {
 }
 
 func index(w http.ResponseWriter, req *http.Request) {
+	if req.URL.RequestURI() != "/" {
+		return
+	}
 	key := realIP(req)
 	hit, err := limiter.Hit(key)
 	if err != nil {
