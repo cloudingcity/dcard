@@ -1,4 +1,4 @@
-module github.com/cloudingcity/dcard
+module github.com/cloudingcity/ratelimit-server
 
 go 1.14
 

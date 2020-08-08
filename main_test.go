@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cloudingcity/dcard/pkg/ratelimit"
+	"github.com/cloudingcity/ratelimit-server/pkg/ratelimit"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudingcity/dcard/pkg/ratelimit"
+	"github.com/cloudingcity/ratelimit-server/pkg/ratelimit"
 )
 
 const (
